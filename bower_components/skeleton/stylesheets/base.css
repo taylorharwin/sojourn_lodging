@@ -71,7 +71,10 @@ dt,
 dd,
 ol,
 ul,
-li,
+li {
+    font-weight: 500;
+}
+,
 fieldset,
 form,
 label,
