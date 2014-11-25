@@ -1,0 +1,22 @@
+{
+  "name": "sojourn_lodging",
+  "version": "0.0.0",
+  "authors": [
+    "Taylor Harwin <taylor.harwin@gmail.com>"
+  ],
+  "description": "a website for a real estate development firm",
+  "main": "index.html",
+  "keywords": [
+    "web"
+  ],
+  "license": "MIT",
+  "homepage": "www.taylorharwin.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
