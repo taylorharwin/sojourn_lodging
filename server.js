@@ -1,14 +1,12 @@
-var http = require('http'),
- fs = require('fs'),
- index = fs.readFileSync(__dirname + '/index.html'),
- port = process.env.PORT || 1337;
-
-var app = http.createServer(function(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.end(index);
-});
+var express = require('express');
+var port = process.env.PORT || 1337;
+var app = express();
+app.use(express.static(__dirname));
 
 
-app.listen(3000);
-console.log('listening on 3000');
+    app.get('/', function(req, res){
+        res.render('index');
+    });
 
+app.listen(port);
+console.log('Listening on port' + port);
