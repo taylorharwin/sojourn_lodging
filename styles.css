@@ -1,8 +1,18 @@
+@media (max-width: 550px) {
+    li {
+        font-size: 20px;
+    }
+    li span {
+        font-size: 14px;
+        display: block;
+    }
+}
+
+
 li {
     margin-left: 10px;
 }
 li span {
-    font-size: 10px;
     font-weight: 600;
     padding-left: 20px;
     font-style: italic;
