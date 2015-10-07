@@ -15,6 +15,10 @@ body {
     line-height: 1.5em;
 }
 
+.container {
+   width: 70%;
+}
+
 h1 {
     font-size: 3em;
 }
@@ -36,10 +40,11 @@ span {
 svg {
     display:block
 }
-.container .six.columns {
-    max-width: 100%;
-        
-    }
+
+svg:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 .myheader {
     position: fixed;
     display: inline-block;
@@ -59,7 +64,7 @@ svg {
     height: auto;
     position: fixed;
     left: 5%;
-    top: 22%;
+    top: 10%;
     display: inline-block;
 }
 .card {
