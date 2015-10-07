@@ -8,9 +8,6 @@
     padding-left: 3px;
     font-style: italic;
     }
-    .container .six.columns {
-        width: 340px;
-    }
 }
 
 body {
@@ -35,13 +32,18 @@ span {
         font-style: italic;
         font-weight: bold;
     }
+
+svg {
+    display:block
+}
 .container .six.columns {
     max-width: 100%;
         
     }
 .myheader {
     position: fixed;
-    height: 70px;
+    display: inline-block;
+    height: auto;
     left: 20px;
     top: 0px;
     width: 100%;
@@ -52,6 +54,13 @@ span {
 }
 .mycontainer {
     margin-top: 130px;
+}
+.navigation {
+    height: auto;
+    position: fixed;
+    left: 5%;
+    top: 22%;
+    display: inline-block;
 }
 .card {
     border: 1px solid;
